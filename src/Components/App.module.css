@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h3 {
+  display: inline-block;
+  margin: 1rem;
+  letter-spacing: 0.2rem;
+  padding: 0.4rem;
+}
+
+span {
+  color: red;
+  font-size: 2rem;
+}
+
+form {
+  display: inline;
+}
+
+form > input {
+  padding: 0.4rem 1.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: lightgray;
+}
+
+.btn {
+  color: white;
+  background-color: red;
+  padding: 0.4rem 1.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.colors {
+  width: 95vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-left: 2.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+}
